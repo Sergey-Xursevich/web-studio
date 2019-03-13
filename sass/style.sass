@@ -1,0 +1,46 @@
+@import 'var'
+@import 'normalize'
+@import 'fonts'
+@import 'header'
+@import 'main'
+@import 'interface'
+@import 'modal'
+@import 'modal-price'
+@import 'portfolio'
+@import 'feedback'
+@import 'partner'
+@import 'map'
+@import 'footer'
+@import 'maket'
+
+*, *:after, *:before
+  box-sizing: border-box
+
+body
+  font-family: 'Proxima Nova Regular', sans-serif
+  
+
+.container
+  width: 1171px
+  margin: 0 auto
+
+.section
+  &-title
+    &__center
+      font-size: 36px
+      font-weight: 400
+      text-align: center
+      &:after
+        content: ''
+        width: 31px
+        height: 2px
+        background-color: $background-button
+        display: block
+  &-subtitle
+    font-size: 20px
+    font-weight: 300
+    text-align: center
+
+@import 'media'
+
+

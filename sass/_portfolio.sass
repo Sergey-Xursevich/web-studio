@@ -1,0 +1,157 @@
+.portfolio
+  &__wrapper
+    display: flex
+    justify-content: center
+    align-items: flex-start
+    flex-wrap: wrap
+    height: 1400px
+  &-title
+    padding-top: 62px
+    &:after
+      margin: 21px auto 40px auto
+  &-subtitle
+    margin-bottom: 70px
+
+.card
+  width: 370px
+  min-height: 680px
+  padding-top: 36px
+  padding-bottom: 40px
+  text-align: center
+  transition: 0.4s
+  &:nth-child(2)
+    margin: 0 30px
+  &:nth-child(5)
+    margin: 0 30px
+  &__title
+    font-size: 20px
+    font-weight: 400
+    margin-bottom: 24px
+  &-content
+    text-align: center
+    font-size: 16px
+    font-weight: 300
+    line-height: 35px
+    width: 234px
+    height: 224px
+    margin: 0px auto 43px auto
+    &:last-child
+      margin: 0px auto 36px auto
+    &__card-6
+      line-height: 21px
+    &__title
+      &:after
+        content: ''
+        width: 9px
+        height: 2px
+        background-color: $background-button
+        display: block
+        margin: 0px auto -3px auto
+      &:last-child:after
+        display: none
+    &__button
+      width: 230px
+      padding: 19px 17px
+      background-color: #FFF
+      color: #000
+      font-family: "Proxima Nova Bold", sans-serif
+      font-size: 13px
+      font-weight: 400
+      text-transform: uppercase
+      margin-bottom: 25px
+      letter-spacing: 0.33px
+      border: 1px solid rgba(174, 174, 174, .2)
+      &:hover::after
+        transform: scaleX(0)
+      &:hover
+        border: none
+        box-shadow: 0 0 0 rgba(0,0,0,0)
+        padding: 20px 17px
+
+
+  &-img
+    width: 300px
+    height: 220px
+    background-size: contain
+    margin: auto
+    margin-bottom: 23px
+    &:last-child
+      margin-bottom: 29px
+    &-black1
+      background: url("../img/portfolio/imgBlack-1.jpg") 100% 100% no-repeat
+      transition: 0.3s
+    &-color1
+      background: url("../img/portfolio/imgColor-1.png") 100% 100% no-repeat
+      display: none
+      transition: 0.3s
+    &-black2
+      background: url("../img/portfolio/imgBlack-2.jpg") 100% 100% no-repeat
+      transition: 0.3s
+    &-color2
+      background: url("../img/portfolio/imgColor-2.png") 100% 100% no-repeat
+      display: none
+      transition: 0.3s
+    &-black3
+      background: url("../img/portfolio/imgBlack-3.jpg") 100% 100% no-repeat
+      transition: 0.3s
+    &-color3
+      background: url("../img/portfolio/imgColor-3.webp") 100% 100% no-repeat
+      display: none
+      transition: 0.3s
+    &-black4
+      background: url("../img/portfolio/imgBlack-4.jpg") 100% 100% no-repeat
+      transition: 0.3s
+    &-color4
+      background: url("../img/portfolio/imgColor-4.webp") 100% 100% no-repeat
+      display: none
+      transition: 0.3s
+    &-black5
+      background: url("../img/portfolio/imgBlack-5.jpg") 100% 100% no-repeat
+      transition: 0.3s
+    &-color5
+      background: url("../img/portfolio/imgColor-5.webp") 100% 100% no-repeat
+      display: none
+      transition: 0.3s
+    &-black6
+      background: url("../img/portfolio/imgBlack-6.jpg") 100% 100% no-repeat
+      transition: 0.2s
+    &-color6
+      background: url("../img/portfolio/imgColor-6.webp") 100% 100% no-repeat
+      display: none
+      transition: 0.3s
+  &:hover
+    box-shadow: 0 5px 32px rgba(0, 0, 0, 0.1)
+    .card-content__button
+      background-color: $background-button
+      color: #FFF     
+    .card-img
+      &-black1
+        display: none
+      &-color1
+        display: block
+        background: url("../img/portfolio/imgColor-1.png") 100% 100% no-repeat
+      &-black2
+        display: none
+      &-color2
+        display: block
+        background: url("../img/portfolio/imgColor-2.png") 100% 100% no-repeat
+      &-black3
+        display: none
+      &-color3
+        display: block
+        background: url("../img/portfolio/imgColor-3.webp") 100% 100% no-repeat
+      &-black4
+        display: none
+      &-color4
+        display: block
+        background: url("../img/portfolio/imgColor-4.webp") 100% 100% no-repeat
+      &-black5
+        display: none
+      &-color5
+        display: block
+        background: url("../img/portfolio/imgColor-5.webp") 100% 100% no-repeat
+      &-black6
+        display: none
+      &-color6
+        display: block
+        background: url("../img/portfolio/imgColor-6.webp") 100% 100% no-repeat

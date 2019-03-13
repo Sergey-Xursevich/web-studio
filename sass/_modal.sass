@@ -1,0 +1,32 @@
+.modal
+  position: fixed
+  width: 100%
+  height: 100%
+  background-color: rgba(#000, 0.52)
+  left: 0
+  top: 0
+  z-index: 99
+  display: none
+  &__visible
+    display: flex
+  &__dialog
+    background-color: #fff
+    margin: auto
+    display: flex
+    justify-content: center
+    align-items: center
+    position: relative
+    margin-top: 20px
+  &__close
+    position: absolute
+    top: 15px
+    right: 15px
+    &:hover
+      cursor: pointer
+.main
+  &-form
+    &__modal
+      height: 380px
+      width: 300px
+  
+
